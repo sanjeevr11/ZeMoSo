@@ -1,0 +1,13 @@
+mpr = 0
+bal1 = bal
+mpr = air/12
+
+while bal > 0:
+    for i in range(12):
+        bal = bal - mpr + ((bal - mpr) * mir)
+    if bal > 0:
+        mpr += 10
+        bal = bal1
+    elif bal <= 0:
+        break
+print('Lowest Payment:', mpr)
