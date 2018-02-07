@@ -1,4 +1,4 @@
-def getWordScore(word, n):
+def getWordScore(word,n):
     score = 0
     for i in word:
         score += SCRABBLE_LETTER_VALUES[i]
