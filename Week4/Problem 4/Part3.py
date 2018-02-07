@@ -3,7 +3,7 @@ def isValidWord(word, hand, wordList):
     word_check = False
     if word in wordList:
         word_check = True
- 
+
     letter_check = set(list(word)) <= set(output.keys())
  
     for letter in word:
